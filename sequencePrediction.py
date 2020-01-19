@@ -226,7 +226,6 @@ ax.plot(y, d,'k', label='RandomForest')
 
 legend = ax.legend(loc='center', shadow=True, fontsize='x-large')
 
-# Put a nicer background color on the legend.
 legend.get_frame().set_facecolor('C0')
 
 plt.show()
